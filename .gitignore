@@ -1,0 +1,7 @@
+/.idea/
+/target/
+/*.forge_settings
+/*.iml
+/*.sublime-project
+/*.sublime-workspace
+/*.jar

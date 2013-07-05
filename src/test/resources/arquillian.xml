@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+  <container qualifier="JBOSS_AS_MANAGED_7.X">
+    <configuration>
+      <property name="jbossHome">/home/dearshor/applications/jboss/jboss-as-7.1.1.Final</property>
+    </configuration>
+  </container>
+  <container qualifier="JBOSS_AS_REMOTE_7.X">
+    <configuration>
+    </configuration>
+  </container>
+  <container qualifier="TOMCAT_EMBEDDED_7.X" ></container>
+  <container qualifier="JETTY_EMBEDDED_7.X_AND_8.X"></container>
+</arquillian>
